@@ -17,8 +17,8 @@ def calcular():
     nome = request.form['nome']
     idade = int(request.form['idade'])
     sexo = request.form['sexo']
-    peso = float(request.form['peso'])
-    altura = float(request.form['altura'])
+    peso = float(request.form['peso'].replace(',', '.'))
+    altura = float(request.form['altura'].replace(',', '.'))
 
     usuario = Usuario(nome, idade, sexo)
     medidas = Medidas(peso, altura)

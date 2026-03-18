@@ -1,0 +1,40 @@
+body {
+    background: linear-gradient(135deg, #f6f6fc, #15154e);
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    border-radius: 15px;
+    background-color: #2f2f44;
+    color: white;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #4e73df;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #2e59d9;
+}
+
+input {
+    border-radius: 8px !important;
+}
+
+label {
+    font-weight: bold;
+    background: #c4c4c4;
+    padding: 3px 6px;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 10px;
+    padding: auto;
+    border-radius: 5px;
+}
